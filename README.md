@@ -1,5 +1,8 @@
 # Logistic Regression Binary Classification Model for ROC curve
-## AUC Score: ~0.87
+## AUC Score: ~0.87 
+
+https://www.kaggle.com/code/lilinke1/logistic-regression-auc-0-8727?scriptVersionId=228361495
+
 Topics/Technologies I learned about during this project:  
 Receiver Operating Characteristic (ROC) curve  
 Pandas  
