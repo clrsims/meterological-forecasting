@@ -3,6 +3,8 @@
 
 https://www.kaggle.com/code/lilinke1/logistic-regression-auc-0-8727?scriptVersionId=228361495
 
+Predicting the probability of rainfall given weather parameters. Used a simple logistic regression model, calculated AUC ROC score, graphed ROC.
+
 Topics/Technologies I learned about during this project:  
 Receiver Operating Characteristic (ROC) curve  
 Pandas  
