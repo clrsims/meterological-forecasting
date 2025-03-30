@@ -1,8 +1,8 @@
 # XGBoost classification machine learning model for forecasting rainfall based on meterological data.
 ## Top Kaggle Submission
-Used a Kaggle dataset of meterological data including pressure, maxtemp, temperature, dewpoint, humidity, etc... to forecast whether it was going to rain.
-Tech stack: Jupyter Notebooks, Python (pandas, seaborn, matplotlib, scikit-learn, and xgboost).
-Techniques used: exploratory data analysis, statistical modeling, feature engineering, time-series & lag feature creation, model training, data scaling & preprocessing, XGBoost, logisitic regression, data engineering.
+### Used a Kaggle dataset of meterological data including pressure, maxtemp, temperature, dewpoint, humidity, etc... to forecast whether it was going to rain.
+### Tech stack: Jupyter Notebooks, Python (pandas, seaborn, matplotlib, scikit-learn, and xgboost).
+### Techniques used: exploratory data analysis, statistical modeling, feature engineering, time-series & lag feature creation, model training, data scaling & preprocessing, XGBoost, logisitic regression, data engineering.
 
 ![image](https://github.com/user-attachments/assets/8dc1b820-9038-4646-a17a-0961c6e89e01)
 
