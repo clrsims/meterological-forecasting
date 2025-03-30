@@ -1,16 +1,15 @@
-# Logistic Regression Binary Classification Model for ROC curve
-## AUC Score: ~0.87 
+# XGBoost classification machine learning model for forecasting rainfall based on meterological data.
+## Top Kaggle Submission
+Used a Kaggle dataset of meterological data including pressure, maxtemp, temperature, dewpoint, humidity, etc... to forecast whether it was going to rain.
+Tech stack: Jupyter Notebooks, Python (pandas, seaborn, matplotlib, scikit-learn, and xgboost).
+Techniques used: exploratory data analysis, statistical modeling, feature engineering, time-series & lag feature creation, model training, data scaling & preprocessing, XGBoost, logisitic regression, data engineering.
 
-https://www.kaggle.com/code/lilinke1/logistic-regression-auc-0-8727?scriptVersionId=228361495
+![image](https://github.com/user-attachments/assets/8dc1b820-9038-4646-a17a-0961c6e89e01)
 
-Predicting the probability of rainfall given weather parameters. Used a simple logistic regression model, calculated AUC ROC score, graphed ROC.
+![image](https://github.com/user-attachments/assets/681ee61c-0fe0-46ed-a012-37689d51bc20)
 
-Topics/Technologies I learned about during this project:  
-Receiver Operating Characteristic (ROC) curve  
-Pandas  
-Dealing with NaN values  
-Logistic Regression Sci-kit learn parameters  
+![image](https://github.com/user-attachments/assets/e407ae94-6edd-46f9-9de2-db5a9f6e25a0)
 
-![image](https://github.com/user-attachments/assets/a0c535f0-81d9-4f26-b2a7-e3a089b9432e)
+![image](https://github.com/user-attachments/assets/5f100e84-5d3f-4741-b842-164166b90f0e)
 
-![image](https://github.com/user-attachments/assets/0c89f41f-7562-4faa-b974-c4b11dbdd48d)
+![image](https://github.com/user-attachments/assets/f59eac1b-fe84-48cb-b3fc-2d35004e655c)
