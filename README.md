@@ -1,6 +1,9 @@
-# XGBoost classification machine learning model for forecasting rainfall based on meterological data.
 ## Top 10% Kaggle Submission
-Used a Kaggle dataset of meterological data including pressure, maxtemp, temperature, dewpoint, humidity, etc... to forecast whether it was going to rain.  
+I used a Kaggle dataset of meterological data including pressure, maxtemp, temperature, dewpoint, humidity, etc... to forecast whether it was going to rain. I used exploratory data analysis to analyze trends within the data (e.g. data distribution, Pearson correlation coefficient matrix, scatterplots between key features).  
+
+From my data analysis, I engineered new features to increase the accuracy of my model, with an emphasis on lag and composite features. On weather data, temporal features are especially important. From there, I split my data into a training and testing set, performed feature scaling to minimize the effect of scaling on feature importance.  
+
+From here, I designed and trained a logistic regression, random forest, and XGBoost (Gradient Boosted Forest) model to get different baselines. For each, I graphed the relevant feature importance (how much each feature contributed to minimizing cost) and specifically analyzed my XGBoost model using SHAP. From there, I removed features with low importance to remove noise from my model.  
 
 Tech stack: Jupyter Notebooks, Python (pandas, seaborn, matplotlib, scikit-learn, and xgboost).  
 
