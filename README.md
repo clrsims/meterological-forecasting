@@ -1,4 +1,4 @@
-## Top 10% Kaggle Submission
+## Binary Classification for Predicting Rainfall
 I used a Kaggle dataset of meterological data including pressure, maxtemp, temperature, dewpoint, humidity, etc... to forecast whether it was going to rain. I used exploratory data analysis to analyze trends within the data (e.g. data distribution, Pearson correlation coefficient matrix, scatterplots between key features).  
 
 ![image](https://github.com/user-attachments/assets/8dc1b820-9038-4646-a17a-0961c6e89e01)
