@@ -9,9 +9,9 @@ Built an end‑to‑end ML pipeline (EDA → feature engineering → model train
 
 ![image](https://github.com/user-attachments/assets/681ee61c-0fe0-46ed-a012-37689d51bc20)
 
-From my data analysis, I engineered new features to increase the accuracy of my model, with an emphasis on lag and composite features. On weather data, temporal features are especially important. From there, I split my data into a training and testing set, performed feature scaling to minimize the effect of scaling on feature importance.  
+I engineered new features to increase the accuracy of my model, with an emphasis on lag and composite features. On weather data, temporal features are especially important. I split my data into a training and testing set, performed feature scaling to minimize the effect of scaling on feature importance.  
 
-From here, I designed and trained a logistic regression, random forest, and XGBoost (Gradient Boosted Forest) model to get different baselines. For each, I graphed the relevant feature importance (how much each feature contributed to minimizing cost) and specifically analyzed my XGBoost model using SHAP. From there, I removed features with low importance to remove noise from my model.  
+I designed and trained a logistic regression, random forest, and XGBoost (Gradient Boosted Forest) model to get different baselines. For each, I graphed the relevant feature importance (how much each feature contributed to minimizing cost) and specifically analyzed my XGBoost model using SHAP. From there, I removed features with low importance to remove noise from my model.  
 
 ![image](https://github.com/user-attachments/assets/e407ae94-6edd-46f9-9de2-db5a9f6e25a0)
 
