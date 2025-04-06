@@ -33,6 +33,6 @@ The used is from the **[Binary Prediction with a Rainfall Dataset](https://www.k
     ├── requirements.txt
     └── README.md
 
-4. Run the notebook
+4. **Run the notebook**
      ```bash
      jupyter notebook
