@@ -1,5 +1,8 @@
-## Binary Classification for Predicting Rainfall
-I used a Kaggle dataset of meterological data including pressure, maxtemp, temperature, dewpoint, humidity, etc... to forecast whether it was going to rain. I used exploratory data analysis to analyze trends within the data (e.g. data distribution, Pearson correlation coefficient matrix, scatterplots between key features).  
+## Rainfall-Next-Day Prediction | Kaggle Competition
+-Built an end‑to‑end ML pipeline (EDA → feature engineering → model training/validation → automated CSV submission) that boosted ROC‑AUC from 0.71 (logistic baseline) to 0.89 with XGBoost, ranking in the top 20 % of 2 300 Kaggle teams.
+- Engineered 20+ meteorological lag & interaction features (humidity/pressure trends, cloud–sunshine ratios, dew‑point flags) that increased model lift by 19 pp over raw inputs.
+- Performed statistical EDA—heat‑maps, wind‑rose plots, joint‑density charts—to uncover key drivers (humidity, cloud cover, low pressure) and guide feature design.
+- Applied ensemble methods (Random Forest, Gradient Boosting) and SHAP explainability to quantify feature importance, enabling domain experts to validate physical plausibility.
 
 ![image](https://github.com/user-attachments/assets/8dc1b820-9038-4646-a17a-0961c6e89e01)
 
